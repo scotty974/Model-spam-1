@@ -17,11 +17,8 @@ The project involves the following steps:
 Setup and Installation
 
     Clone the repository:
-
-    bash
-
-git clone https://github.com/yourusername/spam-detection-model.git
-cd spam-detection-model
+    git clone https://github.com/yourusername/spam-detection-model.git
+    cd spam-detection-model
 
 Usage
 Training and Evaluating the Model
