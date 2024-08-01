@@ -7,7 +7,6 @@ def load_model(model_path='model.pkl'):
     """
     with open(model_path, 'rb') as f:
         model = pickle.load(f)
-        print('Model loaded')
     return model
 
 def load_vectorizer(vectorizer_path='vectorizer.pkl'):
@@ -16,7 +15,6 @@ def load_vectorizer(vectorizer_path='vectorizer.pkl'):
     """
     with open(vectorizer_path, 'rb') as f:
         vectorizer = pickle.load(f)
-        print('Vectorizer loaded')
     return vectorizer
 
 def preprocess_text(text, vectorizer):
